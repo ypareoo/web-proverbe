@@ -1,4 +1,4 @@
-TP Bilan by Paul Bosseboeuf 1G7 louis.bosseboeuf@gmail.com
+TP Bilan classe de première by Paul Bosseboeuf 1G7 louis.bosseboeuf@gmail.com
 
 ouverture : il est vrai que je pourrai rendre ma page web encore plus dynamique par exemple "numéro (entre 1 et 402)" --> faire en sorte que le 402 soit actualisé par le serveur en fonction du nombre réel du tableau.
 
