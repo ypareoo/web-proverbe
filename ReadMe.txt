@@ -1,0 +1,16 @@
+TP Bilan by Paul Bosseboeuf 1G7 louis.bosseboeuf@gmail.com
+
+ouverture : il est vrai que je pourrai rendre ma page web encore plus dynamique par exemple "numéro (entre 1 et 402)" --> faire en sorte que le 402 soit actualisé par le serveur en fonction du nombre réel du tableau.
+
+note :
+1° dans la liste des proverbes, il existe au moins un doublon
+2° je n'ai pas réussi à créer un alert lorsque le paramètre ne correspond à rien.
+3° le fichier "statique" contient le site du tp et un autre sur Ada Lovelace
+4° Me prévenir en cas de bug. Si bug il y a, c'est pas normal.
+
+Lors de l'utilisation :
+-être tolérant avec mon serveur amateur
+-bien faire attention à l'url lors d'une actualisation pour ne pas être surpris de l'absence de proverbe
+deux sites web proposées :
+°le statique : http://127.0.0.1:8080/ada-lovelace.html
+°le dynamique : http://127.0.0.1:8080/sagesse.html
