@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+		<meta charset="utf-8">
+		<title>Sagesse du net</title>
+		<link rel="stylesheet" href="sagesse.css">
+		<link rel="icon" href="einstein.jfif" />
+		<script src="sagesse.js"></script>
+    </head>
+    <body onload="quedemander()"><!--chargement d'un citation à l'actualisation de la page-->
+		<h1 id="bandhaut">Sagesse populaire</h1><!--titre qui reste en haut de la page-->
+		<img src="imagesCsoleil.jfif" onclick="loadXMLDoc()" alt="ici devrai se trouver une superbe image de coucher de soleil"/><!--image qui permet d'obtenir un proverbe aléatoire quand on clique dessus-->
+		
+		<h3 id="provb" onload="loadXMLDoc()">il ne faut pas mettre la charrette avant les boeufs(121)</h3><!--phrase par défaut-->
+
+		<button type="button" onclick="loadXMLDoc()">Changer de citation</button>
+
+		<h2>Soumettre une citation personnalisée ?</h2>
+			Numéro : (entre 1 et 402)<br>
+			
+		<form method="get" action="sagesse.html"><!--formulaire qui demande au serveur la même page mais c'est ainsi pour pouvoir récupérer ce qui a été entré-->
+			<input type="text" name="num" /><!--le paramètre entrée aura le nom 'num'-->
+			<br>
+			<input type="submit"  value="Soumettre" onclick="getproverbeperso()"><!--lorsque le formulaire est envoyé, la fonction 'getproverbeperso' va demander au serveur le paramètre récupéré dans l'url de 'sagesse.html'-->
+		</form>
+		
+		<h4>
+			Pour consulter l'ensemble des citations, cliquez <a href="proverbes-UTF8.txt">ICI</a>
+		</h4>
+		<h4>
+			Pour télecharger l'ensemble des citations, cliquez <a href="proverbes-UTF8.txt" download="citation en vrac du site de paul">Là</a><!-- le fichier téléchargé aura le nom de 'download-->
+		</h4>
+		
+		<div class="footer">
+			Cliquer sur l'image ou sur le bouton pour changer de citation<br>
+			Modifiez l'URL ou saisissez une valeur dans le champs pour obtenir la citation souhaitée<br>
+			Ce site web a été réalisé par P.Boss , 2021<br>
+		</div>
+		<div id="respiration"></div><!--mettre de l'espace entre le footer et le bas de page-->
+
+
+    </body>
+</html>

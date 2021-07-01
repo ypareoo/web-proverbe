@@ -1,0 +1,38 @@
+body{/*s'applique partout sauf en cas de spécification autre ayant un champs d'action plus réduit*/
+	background-color : LightCyan;
+	font-size : 20px;/*taille de police*/
+	text-align: center;
+}
+h1 {
+	color: darkorange;
+}
+.footer {
+	/*position: fixed;*/
+	position: sticky; /*collant (reste visible sur la page)*/
+	left: 0;
+	bottom: 0; /*reste en bas de la fenêtre*/
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#provb {/*zone du proverbe*/
+	border: solid black ;
+	border-width: 0.5px;
+	background-color: white;
+	width:70%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#respiration {/*espacement entre le footer et le bas de page*/
+	height: 15px;
+}
+
+#bandhaut {/*le titre*/
+	position: sticky; /*collant (reste visible sur la page)*/
+	top : 0; /*reste en haut de page*/
+	background-color: white;
+	border-bottom: solid black;
+}
